@@ -1,0 +1,42 @@
+
+body {
+    background-color: #DFF6FF;
+}
+hr{
+    border-style: dotted none none none;
+    border-color: #C6DCE4;
+    border-width: 7px;
+    width: 5%;
+}
+h1{
+    color: #1363DF;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size: 30px;
+}
+table{
+    border-spacing: 20px;
+}
+h3{
+    color: #1363DF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#perfil_image{
+    border-radius: 100%;
+    border: 1px solid rgba(19, 99, 223, 0.3);
+}
+.dense-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: inline-block;
+    text-align: justify;
+    width: 400px;
+
+}
+a{
+    display: block;
+}
