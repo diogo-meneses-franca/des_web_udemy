@@ -1,0 +1,131 @@
+/* montserrat-regular - latin */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('fonts/montserrat-v25-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/montserrat-v25-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* montserrat-700 - latin */
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('fonts/montserrat-v25-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/montserrat-v25-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+#title{
+    background-color: #ff4c68;
+    color: #FFF;
+    
+}
+body {
+    
+    font-family: 'Montserrat', sans-serif;
+
+}
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3 {
+    margin-top: 20px;
+    text-decoration: bold;
+    font-size: 1.5rem;
+
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.dog-img{
+    transform: rotate(25deg);
+    width: 60%;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: Montserrat-Light;
+}
+
+/* Download Bottons */
+
+.download-botton{
+    margin: 5% 3% 5% 0%;
+}
+
+/*Features*/
+
+.container-features{
+    padding:10% 15%;
+    text-align: center;
+}
+.features-p{
+    width: 70%;
+    color: #8F8F8F;
+    margin: 0 auto 0 auto;
+}
+.features-icon{
+    color: #ff4c68 ;
+
+}
+features-icon :hover{
+    color: #EF8172;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    
+    text-align: center;
+    background-color: #EF8172;
+    color: #FFF;
+}
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+
+#press{
+    background-color: #EF8172;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Caurosel */
+
+.carousel-item{
+    padding: 7rem 15rem;
+
+}
