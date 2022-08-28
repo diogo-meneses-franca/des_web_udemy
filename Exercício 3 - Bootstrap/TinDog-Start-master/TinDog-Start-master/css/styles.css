@@ -47,11 +47,12 @@ h3 {
 
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 5%;
 }
 .dog-img{
     transform: rotate(25deg);
     width: 60%;
+    position: absolute;
 }
 
 /* Navigation Bar */
@@ -80,6 +81,12 @@ h3 {
 
 /*Features*/
 
+#features{
+    background-color: #FFF;
+    position: relative;
+
+}
+
 .container-features{
     padding:10% 15%;
     text-align: center;
@@ -98,6 +105,7 @@ features-icon :hover{
 }
 
 /* Testimonial Section */
+
 
 #testimonials {
     
@@ -129,3 +137,10 @@ features-icon :hover{
     padding: 7rem 15rem;
 
 }
+
+/* Preço */
+#pricing{
+    text-align: center;
+    padding: 7rem 15rem;
+}
+
