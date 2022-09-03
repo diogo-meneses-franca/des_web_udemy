@@ -15,12 +15,12 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-nav">
 
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">Tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -43,7 +43,7 @@
       <!-- Title -->
       <div class="row">
         <div class="col-lg-6">
-          <h1>Conheça cachorros novos e interessantes proximos ao seu.</h1>
+          <h1 class="secondary-text">Conheça cachorros novos e interessantes proximos ao seu.</h1>
           <button type="button" class="btn btn-dark btn-lg download-botton"><i class="fa-brands fa-apple"></i> Download</button>
           <button type="button" class="btn btn-outline-light btn-lg download-botton" ><i class="fa-brands fa-google-play"></i> Download</button>
         </div>
@@ -58,7 +58,7 @@
   <!-- Features -->
 
   <section id="features">
-    <div class="container-features">
+    <div class="containers">
       <div class="row">
         <div class="col-lg-4">
           <i class="fa-solid fa-circle-check fa-2xl features-icon"></i>
@@ -85,57 +85,45 @@
   <!-- Testimonials -->
 
   <section id="testimonials">
-    
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="5000">
-          <h2>Eu não tenho nem que cheirar outro cachorro para escolher. Eu encontrei o Corgi mais quente de todos no Tindog. Woof.</h2>
-          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
-          <em>Pebbles, New York</em>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <h2 class="secondary-text">Eu não tenho nem que cheirar outro cachorro para escolher. Eu encontrei o Corgi mais quente de todos no Tindog. Woof.</h2>
+            <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+            <em>Pebbles, New York</em>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <h2 class="secondary-text">Meus cachorros costumavam ser tão sozinhos, mas com a ajuda do TinDog, eles encontraram o amor da vida deles. Eu acho.</h2>
+            <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+            <em>Beverly, Illinois</em>
+          </div>
         </div>
-        <div class="carousel-item" data-bs-interval="5000">
-          <h2 class="testimonial-text">Meus cachorros costumavam ser tão sozinhos, mas com a ajuda do TinDog, eles encontraram o amor da vida deles. Eu acho.</h2>
-          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
-          <em>Beverly, Illinois</em>
-        </div>
+        <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
       </div>
-      <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      </a>
-      <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      </a>
-    </div>
-
-
-
+      <img  class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+      <img  class="press-logo" src="images/tnw.png" alt="tnw-logo">
+      <img  class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+      <img  class="press-logo" src="images/mashable.png" alt="mashable-logo">
   </section>
-
-
-  <!-- Press -->
-
-  <section id="press">
-    <img  class="press-logo" src="images/techcrunch.png" alt="tc-logo">
-    <img  class="press-logo" src="images/tnw.png" alt="tnw-logo">
-    <img  class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
-    <img  class="press-logo" src="images/mashable.png" alt="mashable-logo">
-
-  </section>
-
 
   <!-- Pricing -->
 
   <section id="pricing">
 
-    <h2>Planos para todos os cachorro.</h2>
-    <p>Planos com preços acessíveis para você e para seu cachorro.</p>
+    <h2 class="secondary-text">Planos para todos os cachorro.</h2>
+    <p class="pricing-p">Planos com preços acessíveis para você e para seu cachorro.</p>
 
     <div class="row">
-      <div class="col col-lg-4">
+      <div class="col-lg-4">
         <div class="card">
           <div class="card.body">
             <h3 class="card.title">Chihuahua</h3>
-            <h2>Grátis</h2>
+            <h2 class="secondary-text">Grátis</h2>
             <p>5 Matches Por Dia</p>
             <p>10 Mensagens Por Dia</p>
             <p>Uso ilimitado</p>
@@ -143,11 +131,11 @@
           </div>
         </div>
       </div>
-      <div class="col col-lg-4">
+      <div class="col-lg-4">
         <div class="card">
           <div class="card.body">
             <h3 class="card.title">Labrador</h3>
-            <h2>R$49 / mês</h2>
+            <h2 class="secondary-text">R$49 / mês</h2>
             <p>Matches Ilimitadas</p>
             <p>Mensagens Ilimitadas</p>
             <p>Uso ilimitado do APP</p>
@@ -155,11 +143,11 @@
           </div>
         </div>
       </div>
-      <div class="col col-lg-4">
+      <div class="col-lg-4">
         <div class="card">
           <div class="card.body">
             <h3 class="card.title">Shih-tzu</h3>
-            <h2>R$99 / mês</h2>
+            <h2 class="secondary-text">R$99 / mês</h2>
             <p>Lista de Prioridades</p>
             <p>Matches Ilimitadas</p>
             <p>Mensagens Ilimitadas</p>
@@ -176,9 +164,9 @@
 
   <section id="cta">
 
-    <h3 class="cta-h3">Find the True Love of Your Dog's Life Today.</h3>
-    <button class="btn btn-lg btn-dark cta-button" type="button"><i class="fa-brands fa-apple button-i"></i>Download</button>
-    <button class="btn btn-lg btn-light cta-button" type="button"><i class="fa-brands fa-google-play button-i"></i>Download</button>
+    <h3 class="cta-h3">Econtre o amor da vida de seu cachorro hoje..</h3>
+    <button class="btn btn-lg btn-dark download-botton" type="button"><i class="fa-brands fa-apple button-i"></i>Download</button>
+    <button class="btn btn-lg btn-light download-botton" type="button"><i class="fa-brands fa-google-play button-i"></i>Download</button>
 
   </section>
 
